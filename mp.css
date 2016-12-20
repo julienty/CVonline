@@ -1,7 +1,7 @@
 #bloc_page
 {
 	margin: auto;
-	background-image: url(images/AP.png);
+	background-image: url(img/AP.png);
 }
 body
 {
@@ -79,7 +79,7 @@ article h2
 }
 .master
 {
-	background-image: url(images/graduationday.jpg);
+	background-image: url(img/graduationday.jpg);
 	border-radius: 5px;
 	height: 200px;
 	width: 300px;
@@ -87,7 +87,7 @@ article h2
 }
 .bachelier
 {
-	background-image: url(images/chimie4.jpg);
+	background-image: url(img/chimie4.jpg);
 	border-radius: 5px;
 	height: 200px;
 	width: 300px;
@@ -95,7 +95,7 @@ article h2
 }
 .secondaire
 {
-	background-image: url(images/secondaire.jpg);
+	background-image: url(img/secondaire.jpg);
 	border-radius: 5px;
 	height: 200px;
 	width: 300px;
@@ -108,7 +108,7 @@ article h2
 }
 .colruyt	
 {
-	background-image: url(images/colruyt.jpg);
+	background-image: url(img/colruyt.jpg);
 	border-radius: 5px;
 	height: 200px;
 	width: 300px;
@@ -116,7 +116,7 @@ article h2
 }
 .dawn
 {
-	background-image: url(images/dawn.jpg);
+	background-image: url(img/dawn.jpg);
 	border-radius: 5px;
 	height: 200px;
 	width: 300px;
@@ -124,7 +124,7 @@ article h2
 }
 .badl
 {
-	background-image: url(images/badl.jpg);
+	background-image: url(img/badl.jpg);
 	border-radius: 5px;
 	height: 200px;
 	width: 300px;
