@@ -6,6 +6,7 @@
 body
 {
 	text-align: center;
+	font-family: "Times New Roman", Times, serif;
 }
 header
 {
@@ -84,6 +85,17 @@ article h2
 	height: 200px;
 	width: 300px;
 	color: white;
+}
+.fo
+{
+	color: white;
+	font-weight: bold;
+}
+.fo1
+{
+	position: relative;
+	top: 11.5em;
+	font-weight: bold;
 }
 .bachelier
 {
