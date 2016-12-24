@@ -1,12 +1,12 @@
 #bloc_page
 {
 	margin: auto;
-	background-image: url(img/AP.png);
 }
 body
 {
 	text-align: center;
 	font-family: "Times New Roman", Times, serif;
+	background-image: url(img/AP.png);
 }
 header
 {
