@@ -106,13 +106,29 @@ article h2
 {
 	margin: auto;
 	display: flex;
+	justify-content: center;
+}
+.boulot2
+{
+	margin: auto;
+	display: flex;
 	justify-content: space-between;
+	margin-bottom: 5em;
 }
 .fo1
 {
 	position: relative;
 	top: 11.5em;
 	font-weight: bold;
+}
+.cat
+{
+	background-image: url(img/cat.jpg);
+	border-radius: 5px;
+	height: 200px;
+	width: 300px;
+	color: white;
+	display: block;
 }
 .colruyt	
 {
@@ -122,6 +138,7 @@ article h2
 	width: 300px;
 	color: white;
 	animation-delay: 1.4s;
+	display: block;
 }
 .dawn
 {
@@ -131,6 +148,7 @@ article h2
 	width: 300px;
 	color: white;
 	animation-delay: 1.7s;
+	display: block;
 }
 .badl
 {
@@ -140,6 +158,7 @@ article h2
 	width: 300px;
 	color: white;
 	animation-delay: 2s;
+	display: block;
 }
 .links a
 {
