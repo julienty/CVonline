@@ -1,6 +1,10 @@
 #bloc_page
 {
 }
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
 hr
 {
 	border-color: rgb(0,51,102);
@@ -74,6 +78,7 @@ article h2
 {
 	color: white;
 	font-weight: bold;
+	text-decoration: none;
 }
 .master
 {
@@ -82,7 +87,10 @@ article h2
 	height: 200px;
 	width: 300px;
 	color: white;
-	animation-delay: 0.5s;
+}
+.master:hover
+{
+	box-shadow: 0 0 20px black;
 }
 .bachelier
 {
@@ -91,7 +99,10 @@ article h2
 	height: 200px;
 	width: 300px;
 	color: white;
-	animation-delay: 0.8s;
+}
+.bachelier:hover
+{
+	box-shadow: 0 0 20px black;
 }
 .secondaire
 {
@@ -100,7 +111,10 @@ article h2
 	height: 200px;
 	width: 300px;
 	color: white;
-	animation-delay: 1.1s;
+}
+.secondaire:hover
+{
+	box-shadow: 0 0 20px black;
 }
 .boulot
 {
@@ -130,6 +144,10 @@ article h2
 	color: white;
 	display: block;
 }
+.cat:hover
+{
+	box-shadow: 0 0 20px black;
+}
 .colruyt	
 {
 	background-image: url(img/colruyt.jpg);
@@ -137,8 +155,11 @@ article h2
 	height: 200px;
 	width: 300px;
 	color: white;
-	animation-delay: 1.4s;
 	display: block;
+}
+.colruyt:hover
+{
+	box-shadow: 0 0 20px black;
 }
 .dawn
 {
@@ -147,8 +168,11 @@ article h2
 	height: 200px;
 	width: 300px;
 	color: white;
-	animation-delay: 1.7s;
 	display: block;
+}
+.dawn:hover
+{
+	box-shadow: 0 0 20px black;
 }
 .badl
 {
@@ -157,8 +181,11 @@ article h2
 	height: 200px;
 	width: 300px;
 	color: white;
-	animation-delay: 2s;
 	display: block;
+}
+.badl:hover
+{
+	box-shadow: 0 0 20px black;
 }
 .links a
 {
