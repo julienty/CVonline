@@ -120,7 +120,7 @@ article h2
 {
 	margin: auto;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 }
 .boulot2
 {
@@ -134,6 +134,25 @@ article h2
 	position: relative;
 	top: 11.5em;
 	font-weight: bold;
+}
+.fo3
+{
+	position: relative;
+	top: 10em;
+	font-weight: bold;
+}
+.easi
+{
+	background-image: url(img/easi.jpeg);
+	border-radius: 5px;
+	height: 200px;
+	width: 300px;
+	color: black;
+	display: block;
+}
+.easi:hover
+{
+	box-shadow: 0 0 20px black;
 }
 .cat
 {
