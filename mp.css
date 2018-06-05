@@ -18,7 +18,7 @@ body
 	background-repeat: no-repeat;
 	background-color: white;
 	margin-left: 0px;
-	margin-right: 0px;  
+	margin-right: 0px;
 }
 .texte
 {
@@ -76,16 +76,20 @@ article h2
 }
 .fo
 {
-	color: white;
+	color: rgb(0,51,102);
 	font-weight: bold;
+  position: relative;
+  top: 12.5em;
 	text-decoration: none;
 }
 .master
 {
 	background-image: url(img/graduationday.jpg);
-	border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+	border-radius: 100%;
 	height: 200px;
-	width: 300px;
+	width: 200px;
 	color: white;
 }
 .master:hover
@@ -95,9 +99,11 @@ article h2
 .bachelier
 {
 	background-image: url(img/chimie4.jpg);
-	border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+	border-radius: 100%;
 	height: 200px;
-	width: 300px;
+	width: 200px;
 	color: white;
 }
 .bachelier:hover
@@ -107,9 +113,11 @@ article h2
 .secondaire
 {
 	background-image: url(img/secondaire.jpg);
-	border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+	border-radius: 100%;
 	height: 200px;
-	width: 300px;
+	width: 200px;
 	color: white;
 }
 .secondaire:hover
@@ -132,22 +140,18 @@ article h2
 .fo1
 {
 	position: relative;
-	top: 11.5em;
-	font-weight: bold;
-}
-.fo3
-{
-	position: relative;
-	top: 10em;
+	top: 12.5em;
 	font-weight: bold;
 }
 .easi
 {
-	background-image: url(img/easi.jpeg);
-	border-radius: 5px;
+	background-image: url(img/easi.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
 	height: 200px;
-	width: 300px;
-	color: black;
+	width: 200px;
+	color: rgb(0,51,102);
 	display: block;
 }
 .easi:hover
@@ -157,23 +161,27 @@ article h2
 .cat
 {
 	background-image: url(img/cat.jpg);
-	border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+	border-radius: 100%;
 	height: 200px;
-	width: 300px;
-	color: white;
+	width: 200px;
+	color: rgb(0,51,102);
 	display: block;
 }
 .cat:hover
 {
 	box-shadow: 0 0 20px black;
 }
-.colruyt	
+.colruyt
 {
 	background-image: url(img/colruyt.jpg);
-	border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+	border-radius: 100%;
 	height: 200px;
-	width: 300px;
-	color: white;
+	width: 200px;
+	color: rgb(0,51,102);
 	display: block;
 }
 .colruyt:hover
@@ -183,10 +191,12 @@ article h2
 .dawn
 {
 	background-image: url(img/dawn.jpg);
-	border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+	border-radius: 100%;
 	height: 200px;
-	width: 300px;
-	color: white;
+	width: 200px;
+	color: rgb(0,51,102);
 	display: block;
 }
 .dawn:hover
@@ -196,16 +206,58 @@ article h2
 .badl
 {
 	background-image: url(img/badl.jpg);
-	border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+	border-radius: 100%;
 	height: 200px;
-	width: 300px;
-	color: white;
+	width: 200px;
+	color: rgb(0,51,102);
 	display: block;
 }
 .badl:hover
 {
 	box-shadow: 0 0 20px black;
 }
+/*.compétences
+{
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5em;
+}
+.html
+{
+	background-image: url(img/html.png);
+  background-position: center;
+  background-repeat: no-repeat;
+	border-radius: 100%;
+	height: 200px;
+	width: 200px;
+	color: rgb(0,51,102);
+	display: block;
+}
+.css
+{
+	background-image: url(img/css.png);
+  background-position: center;
+  background-repeat: no-repeat;
+	border-radius: 100%;
+	height: 200px;
+	width: 200px;
+	color: rgb(0,51,102);
+	display: block;
+}
+.git
+{
+	background-image: url(img/git.png);
+  background-position: center;
+  background-repeat: no-repeat;
+	border-radius: 100%;
+	height: 200px;
+	width: 200px;
+	color: rgb(0,51,102);
+	display: block;
+}*/
 .links a
 {
 	display: inline-block;
