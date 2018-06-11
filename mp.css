@@ -12,26 +12,40 @@ hr
 body
 {
 	text-align: center;
-	font-family: "Times New Roman", Times, serif;
-	background-image: url(img/AP.png);
+	/*font-family: "Times New Roman", Times, serif;
+	background-image: url(img/AP.png);*/
 	background-size: 100% 750px;
 	background-repeat: no-repeat;
 	background-color: white;
 	margin-left: 0px;
 	margin-right: 0px;
 }
+.carousel-inner
+{
+  height: 750px;
+}
+.carousel-inner h5
+{
+  margin-top: -300px;
+  color: rgb(255, 187, 57);
+  font-size: 2em;
+  font-family: "Times New Roman", Times, serif;
+}
 .texte
 {
-	font-style: bold;
-	color: white;
-	margin-top: 250px;
+	font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(255, 145, 113);
+	margin-top: -450px;
 	font-size: 2em;
+  position: relative;
 }
 .rectangle
 {
 	height: 75px;
 	background-color: rgb(0,51,102);
 	margin-top: 285px;
+  position: relative;
 	max-width: 100%;
 }
 .photo
@@ -44,6 +58,7 @@ body
 	position: relative;
 	margin-top: -210px;
 	border-color: rgb(0,51,102);
+  z-index: 20;
 }
 .bienvenue
 {
@@ -57,6 +72,7 @@ article hr
 	margin-top: 80px;
 	margin-bottom: 80px;
 	width: 33%;
+  color: rgb(0,51,102);
 }
 article
 {
@@ -79,7 +95,7 @@ article h2
 	color: rgb(0,51,102);
 	font-weight: bold;
   position: relative;
-  top: 12.5em;
+  top: 200px;
 	text-decoration: none;
 }
 .master
@@ -95,6 +111,7 @@ article h2
 .master:hover
 {
 	box-shadow: 0 0 20px black;
+  text-decoration: none;
 }
 .bachelier
 {
@@ -140,8 +157,15 @@ article h2
 .fo1
 {
 	position: relative;
-	top: 12.5em;
+	top: 200px;
 	font-weight: bold;
+}
+a:any-link:hover
+{
+  text-decoration: none;
+}
+{
+  text-decoration: none;
 }
 .easi
 {
