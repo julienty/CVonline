@@ -12,8 +12,7 @@ hr
 body
 {
 	text-align: center;
-	/*font-family: "Times New Roman", Times, serif;
-	background-image: url(img/AP.png);*/
+	font-family: 'Roboto', sans-serif;
 	background-size: 100% 750px;
 	background-repeat: no-repeat;
 	background-color: white;
@@ -29,12 +28,11 @@ body
   margin-top: -300px;
   color: rgb(255, 187, 57);
   font-size: 2em;
-  font-family: "Times New Roman", Times, serif;
+	font-family: 'Roboto', sans-serif;
 }
 .texte
 {
 	font-weight: bold;
-  font-family: "Times New Roman", Times, serif;
   color: rgb(255, 145, 113);
 	margin-top: -450px;
 	font-size: 2em;
